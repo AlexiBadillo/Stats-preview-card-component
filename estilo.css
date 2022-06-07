@@ -6,7 +6,7 @@
 body {
     background-color: hsl(233, 47%, 7%);
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,10 +82,10 @@ body {
         min-width: 280px;
         height: 90%;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 30% 70%;
+        gap: 0;
     }
     .sectionuno {
-        height: 100%;
         padding: 10px 25px 25px 25px;
         text-align: center;
         grid-row: 2 / span 1;
@@ -130,6 +130,7 @@ body {
         margin-bottom: 5px;
     }
     .sectiondos img {
+        height: 100%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 0;
